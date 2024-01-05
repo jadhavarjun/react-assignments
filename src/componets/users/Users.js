@@ -1,4 +1,13 @@
 import React, { useEffect, useState } from "react";
+import {
+  HeartTwoTone,
+  EditOutlined,
+  DeleteFilled,
+  MailOutlined,
+  PhoneOutlined,
+  GlobalOutlined,
+} from "@ant-design/icons";
+// import { Space } from "antd";
 import "./style.css";
 
 function Users() {
@@ -14,7 +23,7 @@ function Users() {
   }, []);
   return (
     <>
-      <div>
+      <div className="contacts">
         {userData &&
           userData.map((values) => {
             return (
@@ -25,28 +34,33 @@ function Users() {
                     alt="avatar"
                   />
                 </div>
-                <div>
-                  <h1>{values.Name}</h1>
+                <div className="details">
+                  <h3>{values.Name}</h3>
                   <p>
-                    <b>Email: </b>
-                    {values.Email}
+                    <MailOutlined />
+                    <span className="info">{values.Email}</span>
                   </p>
                   <p>
-                    <b>Phone: </b>
-                    {values.Phone}
+                    <PhoneOutlined />
+                    <span className="info">{values.Phone}</span>
                   </p>
                   <p>
-                    <b>Company: </b>
-                    {values.Company}
+                    <GlobalOutlined />
+                    <span className="info">{values.Website}</span>
                   </p>
-                  <p>
-                    <b>Website: </b>
-                    {values.Website}
-                  </p>
-                  <p>
-                    <b>Address: </b>
-                    {values.Address}
-                  </p>
+                </div>
+                <hr
+                  style={{
+                    background: "lightgray",
+                    color: "lightgray",
+                    borderColor: "lightgray",
+                  }}
+                />
+
+                <div className="icon">
+                  <HeartTwoTone twoToneColor="#eb2f96" />
+                  <EditOutlined />
+                  <DeleteFilled />
                 </div>
               </div>
             );
