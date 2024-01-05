@@ -1,0 +1,84 @@
+{
+  "contactsArray": [
+    {
+      "Name": "John Doe",
+      "Email": "john@example.com",
+      "Phone": "123-456-7890",
+      "Company": "ABC Inc",
+      "Website": "www.abc.com",
+      "Address": "123 Main St"
+    },
+    {
+      "Name": "Jane Smith",
+      "Email": "jane@example.com",
+      "Phone": "987-654-3210",
+      "Company": "XYZ Corp",
+      "Website": "www.xyz.com",
+      "Address": "456 Oak St"
+    },
+    {
+      "Name": "Alice Johnson",
+      "Email": "alice@example.com",
+      "Phone": "555-123-4567",
+      "Company": "123 Industries",
+      "Website": "www.123industries.com",
+      "Address": "789 Pine St"
+    },
+    {
+      "Name": "Bob Williams",
+      "Email": "bob@example.com",
+      "Phone": "222-333-4444",
+      "Company": "Tech Solutions",
+      "Website": "www.techsolutions.com",
+      "Address": "101 Tech Blvd"
+    },
+    {
+      "Name": "Eva Davis",
+      "Email": "eva@example.com",
+      "Phone": "111-222-3333",
+      "Company": "Eco Friendly",
+      "Website": "www.ecofriendly.com",
+      "Address": "222 Green St"
+    },
+    {
+      "Name": "Chris Anderson",
+      "Email": "chris@example.com",
+      "Phone": "333-555-7777",
+      "Company": "Innovate Labs",
+      "Website": "www.innovatelabs.com",
+      "Address": "456 Innovation Ave"
+    },
+    {
+      "Name": "Olivia White",
+      "Email": "olivia@example.com",
+      "Phone": "888-999-0000",
+      "Company": "Global Corp",
+      "Website": "www.globalcorp.com",
+      "Address": "789 International St"
+    },
+    {
+      "Name": "Michael Brown",
+      "Email": "michael@example.com",
+      "Phone": "444-666-8888",
+      "Company": "Tech Innovations",
+      "Website": "www.techinnovations.com",
+      "Address": "321 Tech Park"
+    },
+    {
+      "Name": "Sophia Taylor",
+      "Email": "sophia@example.com",
+      "Phone": "777-888-9999",
+      "Company": "Creative Designs",
+      "Website": "www.creativedesigns.com",
+      "Address": "555 Design Blvd"
+    },
+    {
+      "Name": "Daniel Lee",
+      "Email": "daniel@example.com",
+      "Phone": "666-444-2222",
+      "Company": "Software Solutions",
+      "Website": "www.softwaresolutions.com",
+      "Address": "777 Code St"
+    }
+  ]
+}
